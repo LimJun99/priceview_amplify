@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Source_Code_Pro, Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/navbar";
-import { ThemeProvider, themes, Theme, useTheme, ThemeWrapper } from "./components/ui";
+import { ThemeProvider, ThemeWrapper } from "./components/ui";
 
 const sourceCodePro = Raleway({
   variable: "--font-source-code-pro",
