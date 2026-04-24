@@ -202,7 +202,6 @@ export default function Page() {
     router.push(`/details?symbol=${symbol}`)
   }
 
-  console.log(useTheme().theme)
   
   return (
     <div

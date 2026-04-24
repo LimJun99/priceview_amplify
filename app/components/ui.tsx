@@ -125,8 +125,6 @@ theme: Theme
   toggle: () => {},
 })
 
-console.log('Current Theme:', ThemeContext); // Debugging line
-
 export function ThemeWrapper({children}:{children: React.ReactNode}){
   const {theme} = useTheme();
   const background = 
